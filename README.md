@@ -35,4 +35,13 @@ This manual contains a comprehensive explanation of each section of Mapbox Studi
 | Streets | A complete basemap, perfect for incorporating your own data.
 | Navigation Preview Day | Traffic on a light streets basemap that highlights congestion. |
 
-Following is a python script to access them quickly.
+[my_styles.py](my_styles.py) and [styles_example.py](styles_example.py) are python demos to access them quickly.
+
+    # Import my_styles as styles
+    from my_styles import styles
+    # styles._token is custom token to access my mapbox styles
+    styles._token
+
+## Using Plotly to draw map
+
+Example python script is [plotly_example.py](plotly_example.py)
